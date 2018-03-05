@@ -44,7 +44,7 @@
 ```
 # Site settings
 title: yourzeromax Blog                    # 你的博客网站标题
-SEOTitle: 余智谋的博客 | BY Blog		# SEO 标题
+SEOTitle: 余智谋的博客 | yourzeromax Blog		# SEO 标题
 description: "Hey"	   	   # 随便说点，描述一下
 
 # SNS settings      
@@ -204,7 +204,7 @@ disqus_username: yourzeromax
 
 **使用：**
 
-参考我的这篇文章：[《为博客添加 Gitalk 评论插件》](http://qiubaiying.top/2017/12/19/%E4%B8%BA%E5%8D%9A%E5%AE%A2%E6%B7%BB%E5%8A%A0-Gitalk-%E8%AF%84%E8%AE%BA%E6%8F%92%E4%BB%B6/)
+参考我的这篇文章：[《为博客添加 Gitalk 评论插件》](http://qiubaiying.top/2017/12/19/%E4%B8%BA%E5%8D%9A%E5%AE%A2%E6%B7%BB%E5%8A%A0-Gitalk-%E8%AF%84%E8%AE%BA%E6%8F%92%E4%BB%B6/) -----“我”，指代模板的制作者。
 
 
 ### Analytics
