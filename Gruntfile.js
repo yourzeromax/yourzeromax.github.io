@@ -9,6 +9,7 @@ module.exports = function(grunt) {
                 dest: 'js/<%= pkg.name %>.min.js'
             }
         },
+        
         less: {
             expanded: {
                 options: {
