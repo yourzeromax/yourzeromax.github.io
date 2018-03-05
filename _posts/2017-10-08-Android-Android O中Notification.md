@@ -4,7 +4,7 @@ title:      Android O中Notification的适配
 subtitle:   Notification知识笔记
 date:       2017-10-08
 author:     yourzeromax
-header-img: img/post-bg-ios9-web.jpg
+header-img: img/post-bg-android.jpg
 catalog: true
 tags:
     - Android
