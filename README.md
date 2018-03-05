@@ -265,7 +265,7 @@ ga_domain: yourzeromax.top			# 默认的是 auto, 这里我是自定义了的域
 
 1. 这个模板是从这里 [Hux](https://github.com/Huxpro/huxpro.github.io) fork 的, 感谢这个作者。
 2. 感谢 Jekyll、Github Pages 和 Bootstrap!
-3. 感谢 BY 提供的教程。
+3. 感谢[BY](https://github.com/qiubaiying/) 提供的教程。
 
 ## License
 
