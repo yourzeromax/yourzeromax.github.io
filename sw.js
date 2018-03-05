@@ -137,7 +137,6 @@ self.addEventListener('fetch', event => {
         .then(resp => resp || fetched)
         .catch(_ => caches.match('offline.html'))
     );
-
     // Update the cache with the version we fetched (only for ok status)
     event.waitUntil(
       Promise.all([fetchedCopy, caches.open(RUNTIME)])
