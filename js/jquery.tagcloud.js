@@ -4,7 +4,7 @@
     var opts = $.extend({}, $.fn.tagcloud.defaults, options);
     tagWeights = this.map(function(){
       return $(this).attr("rel");
-    });
+    }); 
     tagWeights = jQuery.makeArray(tagWeights).sort(compareWeights);
     lowest = tagWeights[0];
     highest = tagWeights.pop();

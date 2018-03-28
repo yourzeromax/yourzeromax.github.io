@@ -25,6 +25,7 @@ layout: null
         <category>{{ cat | xml_escape }}</category>
         {% endfor %}
       </item>
+    
     {% endfor %}
   </channel>
 </rss>
