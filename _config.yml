@@ -111,5 +111,8 @@ friends: [
     },{
         title: "Android Developer",
         href: "https://developer.android.google.cn/index.html"
-    }
+    },{
+        title:  "TensorFlow",
+        href: "https://www.tensorflow.org/"
+        }
 ]
