@@ -7,10 +7,11 @@ author:     yourzeromax
 header-img: img/post-bg-android.jpg
 catalog: true
 tags:
-    - Android Studio
+    - Android
 ---
 
 >Android Studio的快捷键
+
 #  快捷键
 功能 | Keymap | Mac | Win/Linux
 ---|---|---|---
