@@ -4,10 +4,10 @@ title:      Android Studio快捷键的正确使用姿势
 subtitle:   快捷键速记手册
 date:       2018-04-01
 author:     yourzeromax
-header-img: img/post-bg-android.jpg
+header-img: img/post-bg-debug.jpg
 catalog: true
 tags:
-    - Android
+    - Android Studio
 ---
 
 >Android Studio的快捷键  
