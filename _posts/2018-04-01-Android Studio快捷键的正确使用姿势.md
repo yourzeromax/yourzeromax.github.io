@@ -7,7 +7,7 @@ author:     yourzeromax
 header-img: img/post-bg-debug.jpg
 catalog: true
 tags:
-    - Android Studio
+     - Android Studio
 ---
 
 >Android Studio的快捷键  
