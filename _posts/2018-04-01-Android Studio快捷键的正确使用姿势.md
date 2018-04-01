@@ -14,6 +14,8 @@ tags:
 
 
 #  快捷键
+愚人节快乐~  
+
 功能 | Keymap | Mac | Win/Linux
 ---|---|---|---
 提示错误解决方案 | Show Intention Actions | option + enter| alt + enter
