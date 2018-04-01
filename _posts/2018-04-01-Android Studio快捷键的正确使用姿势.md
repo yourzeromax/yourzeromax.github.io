@@ -4,7 +4,7 @@ title:      Android Studio快捷键的正确使用姿势
 subtitle:   快捷键速记手册
 date:       2018-04-01
 author:     yourzeromax
-header-img: img/post-bg-debug.jpg
+header-img: img/post-bg-debug.png
 catalog: true
 tags:
     - AndroidStudio
