@@ -109,9 +109,9 @@ public String getPath()| 将此抽象路径名转换为一个路径名字符串�
 public long lastModified() | 返回此抽象路径名表示的文件最后一次被修改的时间。
 public long length() | 返回由此抽象路径名表示的文件的长度。
 public String[] list()| 返回由此抽象路径名所表示的目录中的文件和目录的名称所组成字符串数组。
-	public File[] listFiles() | 返回一个抽象路径名数组，这些路径名表示此抽象路径名所表示目录中的文件。
-	public File[] listFiles(FileFilter filter)|返回表示此抽象路径名所表示目录中的文件和目录的抽象路径名数组，这些路径名满足特定过滤器。
-	public String toString()|返回此抽象路径名的路径名字符串。
+public File[] listFiles() | 返回一个抽象路径名数组，这些路径名表示此抽象路径名所表示目录中的文件。
+public File[] listFiles(FileFilter filter)|返回表示此抽象路径名所表示目录中的文件和目录的抽象路径名数组，这些路径名满足特定过滤器。
+public String toString()|返回此抽象路径名的路径名字符串。
 
 ### 操作
 
@@ -122,7 +122,7 @@ public void deleteOnExit() | 在虚拟机终止时，请求删除此抽象路径
 public boolean mkdir()|创建此抽象路径名指定的目录。
 public boolean mkdirs()|创建此抽象路径名指定的目录，包括创建必需但不存在的父目录。
 public boolean renameTo(File dest)|重新命名此抽象路径名表示的文件。
-	public boolean setLastModified(long time)|设置由此抽象路径名所指定的文件或目录的最后一次修改时间。
+public boolean setLastModified(long time)|设置由此抽象路径名所指定的文件或目录的最后一次修改时间。
 	
 将File对象方法进行分类是为了方便大家记忆的，我列出来的都是比较常规的用法，当然大家不用死记硬背，熟能生巧就ok，实在记不了用法，可以回来看看这篇文章。
 
