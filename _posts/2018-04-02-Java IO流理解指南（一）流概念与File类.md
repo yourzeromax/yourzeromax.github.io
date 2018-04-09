@@ -61,9 +61,10 @@ Java是一个典型的OOP语言（面向对象），相信大家在学习Java的
 Java语言 |  说明
 ---|---
 File(File parent, String child); | 通过给定的父抽象路径名和子路径名字符串创建一个新的File对象
-File(String pathname)； | 通过将给定路径名字符串转换成抽象路径名来创建一个新 File 对象
-File(String parent, String child)；  | 根据 parent 路径字符串和 child 路径名字符串创建一个新 File 对象
-File(URI uri)；  | 将给定的 file: URI 转换成一个抽象路径名来创建一个新的 File 对象  
+File(String pathname); | 通过将给定路径名字符串转换成抽象路径名来创建一个新 File 对象
+File(String parent, String child);  | 根据 parent 路径字符串和 child 路径名字符串创建一个新 File 对象
+File(URI uri);  | 将给定的 file: URI 转换成一个抽象路径名来创建一个新的 File 对象   
+
 获取方法有且只有上面四种，一般最常用的是前三种，最后一种不怎么使用，是不是很简单？  
 ## 方法行为  
 本节将介绍File对象的常用方法，这些方法根据用途可以分为三个方面：判断、查询、操作。
