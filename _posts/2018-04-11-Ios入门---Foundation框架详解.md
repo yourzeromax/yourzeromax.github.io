@@ -34,6 +34,7 @@ URL网络 | NSURL等| 提供Internet访问
 NSArray是用来装不可变的对象数组，NSMutableArray用于容纳一个可变数组对象。NSMutableArray继承自NSArray，所以带Mutable字眼的都能够拥有不带字眼的实例方法（所有都是这样，不再阐述）  
 
 **NSArray的重要方法列表：**
+
 方法| 描述
 ---|---
 alloc/initWithObjects | 用来初始化一个数组对象。
@@ -41,6 +42,7 @@ objectAtIndex | 在特定索引allReturns对象。
 count|返回的对象的数量  
 
 **NSMutableArray的重要方法列表：**  
+
 方法| 描述
 ---|---
 removeAllObjects|清空数组。
@@ -69,6 +71,7 @@ int main()
 ## NSDictionary & NSMutableDictionary 
 
 **NSDictionary的重要方法列表：**
+
 方法| 描述
 ---|---
 alloc/initWithObjectsAndKeys|初始化一个新分配的字典带构建从指定的集合值和键的条目。
@@ -76,6 +79,7 @@ valueForKey|返回与给定键关联的值。
 count|返回在字典中的条目的数量。
 
 **NSMutableDictionary的重要方法列表：**  
+
 方法| 描述
 ---|---
 removeAllObjects|清空字典条目。
@@ -102,6 +106,7 @@ int main()
 ## NSSet & NSMutableSet
 
 **NSSet的重要方法列表：**
+
 方法| 描述
 ---|---
 aalloc/initWithObjects|初始化一个新分配的成员采取从指定的对象列表。
@@ -109,6 +114,7 @@ allObjects |返回一个数组，包含集合的成员或一个空数组（如�
 count|返回集合中的成员数量。
 
 **NSMutableSet的重要方法列表：**  
+
 方法| 描述
 ---|---
 removeAllObjects|清空其所有成员的集合。
