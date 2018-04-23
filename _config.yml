@@ -100,7 +100,7 @@ service-worker: true
 # Friends
 friends: [
     {
-        title: "Blog",
+        title: "Home",
         href: "http://www.yourzeromax.top"
     },{
         title: "简书·YZM",
