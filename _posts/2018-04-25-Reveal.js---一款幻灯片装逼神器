@@ -1,0 +1,48 @@
+
+
+#  DemoForReveal.js
+
+## 介绍
+前段时间受邀参加很多分享会，突然发现做PowerPoint有些麻烦，在GDG活动之中，看到大佬用了一个在线的幻灯片展示工具，结果回去搜索反而搜到了这个[Reveal.js](https://github.com/hakimel/reveal.js)工具，正好这段时间对前端技术颇为感兴趣，也就深入研究了一番，无法自拔。总之，Reveal.js是一款用HTML搭建幻灯片的前端框架，非常适合前端小白入门，并且在掌握好这门简单的技术后，以后分享就可以装逼啦~！
+
+## 使用方法
+只需要下面三步：
+1. 下载本简化过后的[框架包](https://github.com/yourzeromax/DemoForReveal.js)
+2. 进入文件夹，修改index.html文件下< body>标签内的内容为你自己想要的演示内容。
+3. 对文档进行保存，之后点击这个index.html文档就能实时演示。
+
+在修改完成之后，将整个文件夹上传到自己的服务器，或者直接U盘拷贝就行了，只要有浏览器就能播放幻灯片，达到类似的”跨平台”效果，推荐使用Chrome。
+
+## 基础语法介绍
+
+Reveal.js是一个对前端小白非常友好的框架，懂得一点基础的HTML标签过后就能轻松运用，其中，主要的内容在于`<div class="reveal"></div>`的块之中：
+```
+	<body>
+		<div class="reveal">
+			<div class="slides">
+				<section>Slide 1</section>
+				<section>Slide 2</section>
+				<section>Slide 3</section>
+			</div>
+		</div>
+
+		<script src="lib/js/head.min.js"></script>
+		<script src="js/reveal.js"></script>
+
+		<script>
+...
+		</script>
+	</body>
+```
+`<script>`标签下的内容不必理会，是加载一些所需要的javascript代码而已。
+
+## Markdown实现
+据说Reveal.js框架还能够使用Markdown文档，其他内容等我研究透了再和大家分享。
+
+## 开源
+前端的世界真的奇妙，再次感谢大佬的作品，如果想研究其他更高端的实现方法，可以去Fork原版：[Reveal.js](https://github.com/hakimel/reveal.js)，同时，大佬的个人网站也有很多[新奇的东西](https://hakim.se/)，我玩了很久，也推荐给大家。如果需要梯子的话，看其他博客文章。
+
+[个人主页](www.yourzeromax.top)
+
+
+
