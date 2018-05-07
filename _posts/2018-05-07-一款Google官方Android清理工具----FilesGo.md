@@ -4,7 +4,7 @@ title:      一款Google官方Android清理工具----FilesGo
 subtitle:   FilesGo是Google官方的工具
 date:       2018-05-07
 author:     yourzeromax
-header-img: img/post-bg-coffee.jpeg
+header-img: img/post-bg-android.jpg
 catalog: true
 tags:
     - Android
