@@ -158,7 +158,7 @@ Spannable.SPAN_INCLUSIVE_INCLUSIVE|前后都包括。
     
 [游戏 heybox://opengame?appid=578080&game_type=pc](heybox://opengame?appid=578080&game_type=pc)    
   
-[游戏专辑 heybox://gameAlbum?id=14](heybox://gameAlbum?id=14)  
+[游戏专辑 heybox://gameAlbum?id=63](heybox://gameAlbum?id=63)  
   
 [帖子 heybox://link?link_id=5357618](heybox://link?link_id=5357618)
 
