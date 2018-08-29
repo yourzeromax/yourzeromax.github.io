@@ -152,9 +152,9 @@ Spannable.SPAN_INCLUSIVE_EXCLUSIVE|前面包括，后面不包括。
 Spannable.SPAN_INCLUSIVE_INCLUSIVE|前后都包括。  
 这个参数主要是对新键入的字符有作用，换言之对EditText使用SpannableString，如果我们设置Spannable.SPAN_EXCLUSIVE_INCLUSIVE，在选中的span下标前面和后面都输入文字，前面的文字没有任何效果，后面的则不同，添加上相同的Span特效，（前面不应用特效，后面应用特效），其它几个Flags参数的含义看表格的描述就能明白。    
 
-[heybox://news?news_id=13332](heybox://news?news_id=274&link_id=24131&url=https://heybox.tt.maxjia.xom/maxnews/app/detail/274)  
+[heybox://news?news_id=162500](heybox://news?news_id=274&link_id=162500&url=https://heybox.tt.maxjia.xom/maxnews/app/detail/274)  
   
-[视频 heybox://video?link_id=213412](heybox://video?link_id=5344673)
+[视频 heybox://video?link_id=5344673](heybox://video?link_id=5344673)
     
 [游戏 heybox://opengame?appid=578080&game_type=pc](heybox://opengame?appid=578080&game_type=pc)    
   
