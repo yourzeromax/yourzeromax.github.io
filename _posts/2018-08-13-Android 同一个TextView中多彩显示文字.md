@@ -160,7 +160,7 @@ Spannable.SPAN_INCLUSIVE_INCLUSIVE|前后都包括。
   
 [游戏专辑 heybox://gameAlbum?id=14](heybox://gameAlbum?id=14)  
   
-[帖子 heybox://link?link_id=14124](heybox://link?link_id=14124)
+[帖子 heybox://link?link_id=5357618](heybox://link?link_id=5357618)
 
 [百科 heybox://web?url=https://api.xiaoheihe.com?a=b&title=强袭胸甲](heybox://web?url=https://api.xiaoheihe.com?a=b&title=强袭胸甲)    
   
