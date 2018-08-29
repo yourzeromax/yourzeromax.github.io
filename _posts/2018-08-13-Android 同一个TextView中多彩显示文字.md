@@ -154,7 +154,7 @@ Spannable.SPAN_INCLUSIVE_INCLUSIVE|前后都包括。
 
 [heybox://news?news_id=13332](heybox://news?news_id=274&link_id=24131&url=https://heybox.tt.maxjia.xom/maxnews/app/detail/274)  
   
-[视频 heybox://video?link_id=213412](heybox://video?link_id=213412)
+[视频 heybox://video?link_id=213412](heybox://video?link_id=5344673)
     
 [游戏 heybox://opengame?appid=578080&game_type=pc](heybox://opengame?appid=578080&game_type=pc)    
   
