@@ -162,11 +162,9 @@ Spannable.SPAN_INCLUSIVE_INCLUSIVE|前后都包括。
   
 [帖子 heybox://link?link_id=5357618](heybox://link?link_id=5357618)
 
-[百科 heybox://web?url=https://api.xiaoheihe.com?a=b&title=强袭胸甲](heybox://{"protocol_type":"openWindow","navigation_bar":{"title":"杀戮尖塔","color":"000000","transparent":false},"webview":{"url":"https://api.xiaoheihe.cn/wiki/get_homepage_info_for_app/?&wiki_id=646570","bg":"ffffff","pull":true,"refresh":false}}
-)    
+[百科 ](heybox://{"protocol_type":"openWindow","navigation_bar":{"title":"杀戮尖塔","color":"000000","transparent":false},"webview":{"url":"https://api.xiaoheihe.cn/wiki/get_homepage_info_for_app/?&wiki_id=646570","bg":"ffffff","pull":true,"refresh":false}})    
   
-[专题活动 heybox://web?url=https://api.xiaoheihe.com?a=b&title=2018%20活动](heybox://{"protocol_type":"openWindow","navigation_bar":{"title":"杀戮尖塔","color":"000000","transparent":false},"webview":{"url":"https://api.xiaoheihe.cn/wiki/get_homepage_info_for_app/?&wiki_id=646570","bg":"ffffff","pull":true,"refresh":false}}
-)
+[专题活动 ](heybox://{"protocol_type":"openWindow","navigation_bar":{"title":"杀戮尖塔","color":"000000","transparent":false},"webview":{"url":"https://api.xiaoheihe.cn/wiki/get_homepage_info_for_app/?&wiki_id=646570","bg":"ffffff","pull":true,"refresh":false}})
     
 [Roll heybox://rollRoom?link_id=35465](heybox://rollRoom?link_id=35465)  
 
