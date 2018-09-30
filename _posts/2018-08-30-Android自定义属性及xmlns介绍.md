@@ -77,7 +77,7 @@ R.styleable.XXX就是我们需要自己定义的属类别性，在res/values/中
 </resources>
 ```
 
-<declare-styleable>标签包裹自定义的属性类别，也就是上文中XXX所需要替代的值，在该标签下可以包含多个<attr>标签值，每一个attr都代表能够包含的属性，而name表示的是xml中自定义的属性名，format表示该属性的取值类型，可以包含string、integer、boolean、color、refrence等，分别表示字符串、int值、布尔值、颜色id、对象引用（drawable等）。  
+declare-styleable标签包裹自定义的属性类别，也就是上文中XXX所需要替代的值，在该标签下可以包含多个<attr>标签值，每一个attr都代表能够包含的属性，而name表示的是xml中自定义的属性名，format表示该属性的取值类型，可以包含string、integer、boolean、color、refrence等，分别表示字符串、int值、布尔值、颜色id、对象引用（drawable等）。  
 
 ## xml中添加自定义属性
 我们在xml中为自定义View添加自定义属性，可以如下所示：  
@@ -120,7 +120,7 @@ R.styleable.XXX就是我们需要自己定义的属类别性，在res/values/中
 xml布局中使用最多的是android:id、andorid:layout_width等形式，在我们自定义的xml中，添加了app:Text、app:TextAllow等这样的写法，其实冒号前面的单词并不重要，重要的是后面引号中的内容，前面的单词可以任意取名，我们在最开始指定了这样一句代码：  
 
 ```
-    xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:app="http://schemas.android.com/apk/res-auto"
 ```
 包括系统自动为我们添加的这一句代码：  
 
