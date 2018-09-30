@@ -143,7 +143,7 @@ xmlns:tools="http://schemas.android.com/tools"
 > "客户们都是笨蛋"；这时，产品上线，结果忘了删除这行代码，数据加载也没有重新设置text内容。  
   
 这种场面是不是就很尴尬了？使用tools标签就能够避免这样的尴尬，我们在xml布局中加入tools:text="客户们都是笨蛋"，发现预览中是这样的：  
-![预览图](https://img-blog.csdn.net/20180912195907798?watermark/2/text/aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FxXzM0NzczOTgx/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70)  
+![预览图](https://raw.githubusercontent.com/yourzeromax/yourzeromax.github.io/master/img/20180830/20180830-1.)  
 但实际上，如果运行的话，是看不到这条text的。
 除此之外，tools:标签几乎支持所有android:的同名标签，比如tools:src、tools:textSize等，可以自己进行探索。  
 总之，tools的作用就是能够方便开发者在开发过程中提前预览xml布局而对之后的运行结果不产生影响，挺方便的一个工具。  
