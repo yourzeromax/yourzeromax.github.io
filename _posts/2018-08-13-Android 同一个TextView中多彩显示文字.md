@@ -12,7 +12,7 @@ tags:
 
 # 写在前面
 最近，在公司的项目中需要将一段文字分别涂上两种不同的颜色，最笨重的解决办法就是用多个TextView相互进行拼接显示，但是不光让业务逻辑变得繁杂，也让代码可靠性降低，因此本文介绍两种可以实现在同一个TextView下展示不同色彩的方法，如下图所示：  
-![图1 TextView示意图](https://raw.githubusercontent.com/yourzeromax/yourzeromax.github.io/master/img/20180813/20180813-1.png)
+![图1 TextView示意图](https://raw.githubusercontent.com/yourzeromax/yourzeromax.github.io/master/img/20180813/20180813-1.jpg)
 
 其中涉及到的是SpannableString等相关的类知识，当然String是一个既基础也复杂的对象类，所以在文章开头会阐述String、StringBuffer和StringBuilder的应用对比，话不多说，开始吧。  
 
@@ -129,6 +129,7 @@ SpannableString在创建之后便不能修改字符串，而SpannableStringBuild
 ## Span样式类  
 
 首先第一个参数是设置Span的样式，它的对象类别有很多，最为常用的有如下几种：  
+
 名称 | 类名|参数|描述
 ---|---|---|---
 背景色 | BackgroundColorSpan| Color|设置背景颜色
