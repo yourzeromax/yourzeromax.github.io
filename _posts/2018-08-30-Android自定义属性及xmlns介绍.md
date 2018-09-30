@@ -115,6 +115,7 @@ declare-styleable标签包裹自定义的属性类别，也就是上文中XXX所
 
 其中s的值便是我们在xml中指定的字符串值，在本例子中，s="123"，这样便完成了xml属性到代码属性的转换，不信可以自己试试。  
 > Tips:在使用完TyoedArray对象以后，一定要记得recycle（）回收，避免内存泄漏的发生。  
+
 # xmlns的作用    
 
 xml布局中使用最多的是android:id、andorid:layout_width等形式，在我们自定义的xml中，添加了app:Text、app:TextAllow等这样的写法，其实冒号前面的单词并不重要，重要的是后面引号中的内容，前面的单词可以任意取名，我们在最开始指定了这样一句代码：  
@@ -143,9 +144,11 @@ xmlns:tools="http://schemas.android.com/tools"
 > "客户们都是笨蛋"；这时，产品上线，结果忘了删除这行代码，数据加载也没有重新设置text内容。  
   
 这种场面是不是就很尴尬了？使用tools标签就能够避免这样的尴尬，我们在xml布局中加入tools:text="客户们都是笨蛋"，发现预览中是这样的：  
-![预览图](https://raw.githubusercontent.com/yourzeromax/yourzeromax.github.io/master/img/20180830/20180830-1.)  
+![](https://raw.githubusercontent.com/yourzeromax/yourzeromax.github.io/master/img/20180830/20180830-1.png)
+
 但实际上，如果运行的话，是看不到这条text的。
 除此之外，tools:标签几乎支持所有android:的同名标签，比如tools:src、tools:textSize等，可以自己进行探索。  
 总之，tools的作用就是能够方便开发者在开发过程中提前预览xml布局而对之后的运行结果不产生影响，挺方便的一个工具。  
 
-欢迎关注[我的博客](www.yourzeromax.top)
+欢迎关注
+[我的博客](www.yourzeromax.top)
