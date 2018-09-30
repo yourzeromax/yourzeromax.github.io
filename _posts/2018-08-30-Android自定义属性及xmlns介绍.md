@@ -76,6 +76,7 @@ R.styleable.XXX就是我们需要自己定义的属类别性，在res/values/中
    </declare-styleable>
 </resources>
 ```
+
 <declare-styleable>标签包裹自定义的属性类别，也就是上文中XXX所需要替代的值，在该标签下可以包含多个<attr>标签值，每一个attr都代表能够包含的属性，而name表示的是xml中自定义的属性名，format表示该属性的取值类型，可以包含string、integer、boolean、color、refrence等，分别表示字符串、int值、布尔值、颜色id、对象引用（drawable等）。  
 
 ## xml中添加自定义属性
@@ -111,6 +112,7 @@ R.styleable.XXX就是我们需要自己定义的属类别性，在res/values/中
       String  s = typedArray.getString(R.styleable.MyView_Text);
         typedArray.recycle();
 ```  
+
 其中s的值便是我们在xml中指定的字符串值，在本例子中，s="123"，这样便完成了xml属性到代码属性的转换，不信可以自己试试。  
 > Tips:在使用完TyoedArray对象以后，一定要记得recycle（）回收，避免内存泄漏的发生。  
 # xmlns的作用    
