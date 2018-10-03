@@ -10,12 +10,15 @@ tags:
     - Android
 ---    
 
-# 写在前面  
+# 写在前面
+
 Fragment是Google在Android3.0新加的东西，它的功能和作用如同名字一样，代表着一块块碎片，而这些碎片则可以灵活地嵌入到各Activity之中。  
 其他关于Fragment的介绍，相信大家看各种博客和书籍都了解得非常多了，所以在此介绍一些关于Fragment独特的见解，在刚开始的时候，我对Fragment的理解也只停留在书籍介绍的部分，但是随着开发经验的积累，才真正明白Google工程师们的伟大...  
 Android整个框架其实是一个比较经典的MVC开发模型，抛开Model和View容易理解以外，虽然没有iOS之中各种XXXController命名方法这么直观，但是Activity其实一直都承担着控制器的角色，如果按照一种十分完美的项目工程来说，Fragment的引入，能够减轻臃肿的Activity业务控制代码，对不同区域View的控制任务进行划分，分别移到到不同的Fragment之中，而Activity原则上只需要管理这些Fragment以及极少的业务控制部分。这种开发方式不仅使得Android能够解决屏幕碎片化的问题，也让各部分的业务逻辑开发变得浅显易懂。  
 总而言之：Fragment其实是承担Acitivity中不同View区域逻辑的控制器，而Activity将通过FragmentManager对所有的Fragment进行统一管理。
+
 # Fragment基础概念
+
 Fragment的问世经过了很多年，而这些年Google的工程师们也一直在改进Fragment的代码，目前的现状就是除了SDK包中自带的Fragment以外，还提供了存在于V4兼容包内的Fragment，一般情况下，大多数开发者们都会使用v4包下的Fragment，这几乎成为主流。随着包路径所带来的不同以外，Activity中的Fragment管理类的获取方式也从`getFragmentManager()`变成了`getSupportFragmentManager()`。  
 静态Fragment使用方法不谈，动态Fragment的操作将会以事务（Transaction）的形式完成，代码如下： 
 
