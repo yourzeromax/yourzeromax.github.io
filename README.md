@@ -4,7 +4,7 @@
 > 
 > 更为详细的教程[《利用 GitHub Pages 快速搭建个人博客》](http://www.jianshu.com/p/e68fba58f75c) 
 > 
-### [我的博客在这里 &rarr;](http://yourzeromax.github.io)
+### [我的博客在这里 &rarr;]()
 
 ![](https://raw.githubusercontent.com/yourzeromax/yourzeromax.github.io/master/img/readme-home.png)
 
