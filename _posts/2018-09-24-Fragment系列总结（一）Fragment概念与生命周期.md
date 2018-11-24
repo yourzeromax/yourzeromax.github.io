@@ -1,7 +1,7 @@
 ---
 layout:     post
-title:      Fragment系列总结（一）Fragment概念与生命周期
-subtitle:   坐下！Fragment的基本操作！
+title:      Fragment系列总结（一）
+subtitle:   Fragment概念与生命周期
 date:       2018-09-24
 author:     yourzeromax
 header-img: img/post-bg-android.jpg

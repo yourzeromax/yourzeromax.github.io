@@ -1,7 +1,7 @@
 ---
 layout:     post
 title:      Retrofit使用总结（一）
-subtitle:   Retrofit使用方法介绍
+subtitle:   基础使用方法介绍
 date:       2018-07-20
 author:     yourzeromax
 header-img: img/post-bg-android.jpg

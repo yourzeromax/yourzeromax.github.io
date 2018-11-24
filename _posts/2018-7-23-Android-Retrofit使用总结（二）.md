@@ -1,7 +1,7 @@
 ---
 layout:     post
 title:      Retrofit使用总结（二）
-subtitle:   Retrofit使用方法介绍
+subtitle:   高级配置方法
 date:       2018-07-23
 author:     yourzeromax
 header-img: img/post-bg-android.jpg
