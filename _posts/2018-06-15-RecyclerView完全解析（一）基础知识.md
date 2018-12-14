@@ -16,7 +16,8 @@ tags:
 
 # 引言
 RecyclerView是什么？这个问题一搜一大把，总之它就是Google提供给大家用来替换ListView或者是GridView的一个新控件，虽然在最开始接触Android开发，学习郭神的《第一行代码》中RecyclerView部分的时候，感觉它的使用非常麻烦，并且容易出错，但是随着开发经验的不断增加，才发现RecyclerView真的是一个神级控件，尤其是在拜读了相关的源码过后，对Google的工程师们佩服的更加五体投地。    
-
+> 2018.12.14补充：进阶参考资料：  
+[关于RecyclerView你知道的不知道的都在这了](https://www.jianshu.com/p/aff499a5953c)
 
 # RecyclerView的优点
 
