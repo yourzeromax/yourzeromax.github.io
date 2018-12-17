@@ -1,4 +1,4 @@
----
+﻿---
 layout:     post
 title:      Retrofit使用总结（一）
 subtitle:   基础使用方法介绍
@@ -27,6 +27,9 @@ compile 'io.reactivex:rxandroid:1.2.1'
 [github地址](https://github.com/square/retrofit)  
 
 [Retrofit官方网站](http://square.github.io/retrofit/)
+
+[简书·学习Retrofit](https://www.jianshu.com/p/74b7da380855)
+
 # 什么是Retrofit？
  Retrofit是一款由Square公司开源的著名框架，按照官网的文档来说，这款框架是“专门用于Android和Java的一种类型安全的Http客户端框架”。不懂这句话没关系，反正知道Retrofit能够完成网络连接就好啦。  
  
@@ -46,6 +49,10 @@ compile 'io.reactivex:rxandroid:1.2.1'
 public interface HttpInterface {
     @GET("users/{user}/repos")
     Call<List<Repo>> listRepos(@Path("user") String user);
+    
+    @Multipart
+    @POST("/open/image")
+    Call<Result> uploadFile(@Part MultipartBody.Part file);
 }
 ```
 这是一个标准的Retrofit请求接口类的创建，学过计算机网络的人都应该知道网络请求有GET和POST两种方式，在上文代码中的@GET便是指定相应的请求方式，网络连接需要URL的形式，而GET标签后的String路径则是指代URL中的文件路径和文件名，URL的统一格式为：
@@ -103,6 +110,40 @@ call.enqueue(new Callback<List<Repo>>() {
 });
 ```  
 上述采用的是异步的方式处理数据，一般来说网络请求的发起是在主线程的，采用异步的形式是非常重要的，但是在实际的使用过程中，这样的编程风格难免会显得羞涩一些，Retrofit也充分考虑到这种情况，为开发者们准备了Gson和RxJava的框架库，也就是说，目前最为常用的网络请求方式是Retrofit+RxJava+Gson的形式，感慨于编程的智慧。  
+
+## 使用POST上传文件  
+> 本小节添加于2018.12.17  
+  
+  ```
+  String name = etFileName.getText().toString().trim();
+String path = Environment.getExternalStorageDirectory() + File.separator + name;
+File file = new File(path);
+
+RequestBody fileRQ = RequestBody.create(MediaType.parse("multipart/form-data"), file);
+MultipartBody.Part part MultipartBody.Part.createFormData("picture", file.getName(), fileRQ);
+
+Call<Result> uploadCall = downloadService.uploadFile(part);
+
+  ```
+  或者：  
+  ```
+  //接口文件
+    @Multipart
+    @POST("upload")
+    Call<ResponseBody> uploadFiles(@PartMap Map<String, RequestBody> map);
+
+    //请求： 
+    RequestBody fb = RequestBody.create(MediaType.parse("text/plain"), "hello,retrofit");
+    RequestBody fileTwo = RequestBody.create(MediaType.parse("multipart/form-data"), new File(Environment.getExternalStorageDirectory()
+                + file.separator + "original.png"));
+    Map<String, RequestBody> map = new HashMap<>();
+    //这里的key必须这么写，否则服务端无法识别
+    map.put("file\"; filename=\""+ file.getName(), fileRQ);
+    map.put("file\"; filename=\""+ "2.png", fileTwo);
+
+    Call<ResponseBody> uploadCall = downloadService.uploadFiles(map);
+  ```
+ 
 # Retrofit+RxJava+Gson  
 一下子丢出三个框架名字，估计初学者会受不了，什么叫RxJava？Gson的作用又是什么？  
 ① 简单来说，线程异步调动在Android开发中是一件非常平常的事情，RxJava是一款优雅的异步处理框架，它的使用方法采用链式的形式，非常直观，具有极高的艺术性，建议大家移步此文进行学习：  
