@@ -24,9 +24,10 @@ tags:
 String | 不可变序列|---
 StringBuffer| 可变序列|安全
 StringBuilder| 可变序列|非线程安全  
+
 由此可见，三者最大的不同点主要在于两个方面，一个是否可变序列、另一个则关乎于是否为线程安全，什么叫不可变序列呢？看下列代码：
 
-```
+```java
    String str = "hello ";
         String str1 = str + "word";
         if (str == str1) {
@@ -45,14 +46,14 @@ StringBuilder| 可变序列|非线程安全
 ```
 最终输出结果为：
 
-```
+```java
 str与str1为同一对象：false
 builder与builder为同一对象：true
-```  
+```
 从结果可以看出，String和StringBuilder对象分别拼接了一个字符串，但是String对象得到的却不是同一个对象，而StringBuilder依旧是原来的对象---不可变序列String在添加字符串时会重新创建一个新的对象，而可变序列StringBuilder和StringBuffer则能够使用同一个对象。
 ## String补充知识
 实际上，在拼接String对象时，Java虚拟机内部会对代码进行运行优化：  
-```
+```java
 //实际代码
 String str = "I love";
     for(int i = 0;i<1000;i++){
@@ -65,10 +66,10 @@ String str = "I love";
         sb.append("java");
         str=sb.toString();
         }
-```    
+```
 除外，看一下代码运行结果：  
 
-```
+```java
 
         String str1 = "hello world";
         String str2 = new String("hello world");
@@ -83,7 +84,7 @@ String str = "I love";
    // false
    // true
    // false
-``` 
+```
 在class文件中有一部分来存储编译期间生成的字面常量以及符号引用,这部分叫做class文件常量池，在运行期间对应着方法区的运行时常量池。  
 也就是说str1之所以与str3相等，是因为他们都指向了同一个常量。这算是String对象的唯一一个优势。
 
@@ -108,7 +109,7 @@ String str = "I love";
 
 是不是很简单？（废话，把重点都省略掉了。）再来分析下上面的四个步骤：首先前两步都是创建相关的对象，后两步才是将对象真正调用起来，第四步不用解释:
 
-```
+```java
         ForegroundColorSpan foregroundColorSpan = new ForegroundColorSpan(Color.RED);
         //BackgroundColorSpan span = new BackgroundColorSpan(Color.GRAY);
         
