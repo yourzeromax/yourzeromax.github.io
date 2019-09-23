@@ -4,7 +4,7 @@ title:      探索大本营彩虹跑活动
 subtitle:   胜利女神在微笑。
 date:       2019-10-26
 author:     yourzeromax
-header-img: img/home-bg-art.jpg
+header-img: img/20190923/cover.png
 catalog: true
 tags:
     - 生活小百科
