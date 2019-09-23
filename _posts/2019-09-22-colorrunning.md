@@ -1,10 +1,10 @@
 ---
 layout:     post
-title:      探索大本营第三次滑雪活动
-subtitle:   急速坠落的激情
+title:      探索大本营彩虹跑活动
+subtitle:   胜利女神在微笑。
 date:       2019-10-26
 author:     yourzeromax
-header-img: img/post-bg-kuaidi.jpg
+header-img: img/home-bg-art.jpg
 catalog: true
 tags:
     - 生活小百科
