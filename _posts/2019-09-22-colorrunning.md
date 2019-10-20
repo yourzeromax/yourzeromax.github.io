@@ -41,6 +41,11 @@ tags:
 
 ![happy4](https://raw.githubusercontent.com/yourzeromax/yourzeromax.github.io/master/img/20190923/happy4.jpg)
 
+### 活动视频
+
+<video src="http://www.thecolorrun.com.cn/Public/Fg/video/tropicolor1.mp4" width="640" height="360"
+controls="controls"></video> 
+
 # 注意事项
 ### 携带物品（推荐）
 1. 速干衣及运动裤
